@@ -11,3 +11,4 @@
 <!-- Template CSS -->
 <link rel="stylesheet" href="{{asset('backend/css/style.css')}}">
 <link rel="stylesheet" href="{{asset('backend/css/components.css')}}">
+@stack('styles')

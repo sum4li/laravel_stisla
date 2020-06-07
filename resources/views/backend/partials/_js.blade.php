@@ -19,3 +19,4 @@
 
 <!-- Page Specific JS File -->
 <script src="{{asset('backend/js/page/index.js')}}"></script>
+@stack('scripts')

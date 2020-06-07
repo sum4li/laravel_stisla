@@ -17,6 +17,7 @@
       <div class="main-content">
         <section class="section">
           <div class="row">
+            
             <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="card card-statistic-2">
                 <div class="card-stats">
@@ -106,6 +107,9 @@
             </div>
           </div>
           <div class="row">
+              <div class="col-lg-12">
+                  <x-datatables_serverside></x-datatables_serverside>
+              </div>
             <div class="col-lg-8">
               <div class="card">
                 <div class="card-header">
