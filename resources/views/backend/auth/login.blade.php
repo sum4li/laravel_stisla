@@ -23,7 +23,7 @@
                                 <h4>Login</h4>
                             </div>
                             <div class="card-body">
-                                {!! Form::open()->method('post')->route('login') !!}                                
+                                {!! Form::open()->method('post')->route('admin.login') !!}                                
                                 <div class="row">
                                     <div class="col-lg-12">
                                         {!! Form::text('email', 'Email')->required()->type('email')->attrs(['autofocus']) !!}

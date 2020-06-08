@@ -42,4 +42,9 @@ class LoginController extends Controller
     {
         return view('backend.auth.login');
     }
+
+    public function logout () {
+        auth()->logout();
+        return redirect('/admin');
+    }
 }

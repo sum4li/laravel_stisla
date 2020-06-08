@@ -34,5 +34,7 @@ return [
         'r' => 'read',
         'u' => 'update',
         'd' => 'delete'
-    ]
+    ],
+
+    'create_users' => true
 ];
