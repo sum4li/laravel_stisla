@@ -135,7 +135,9 @@ return [
     */
 
     'providers' => [
-
+        Watson\Active\ActiveServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
@@ -189,6 +191,8 @@ return [
     */
 
     'aliases' => [
+        'Active' => Watson\Active\Facades\Active::class,
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
 
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
